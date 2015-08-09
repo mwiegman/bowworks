@@ -64,11 +64,13 @@ h3 {
   margin: 1%;  
   font-weight: 300;
 }
+
 .home h1 {
   border-bottom: 1px solid black;
   max-width: 500px;
   margin: 0 auto;
 }
+
 h1 a {
    font-variant: small-caps;    
 }
@@ -79,6 +81,10 @@ h2 {
 }
 
 header h1 {
+  display: none;
+}
+
+header li:first-of-type {
   display: none;
 }
 
@@ -147,13 +153,6 @@ p {
   padding: 1%
 
 }
-
-/*.home {
-  display: block;
-  
-
-
-}*/
 
 section > div {
   display: table-cell;
@@ -261,6 +260,10 @@ margin: 0 auto;
   float: right;
   display: block;
   margin: 0 10px;  
+}
+
+.scrolling li:first-of-type {
+  display: inline;
 }
 
 }
